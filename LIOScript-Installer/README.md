@@ -1,0 +1,1 @@
+Pensez à modifier le script dans \LIOscript\open-session.cmd
