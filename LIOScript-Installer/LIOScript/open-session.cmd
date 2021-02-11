@@ -1,6 +1,6 @@
 @echo off
 
-copy /Y /V "%USERPROFILE%\AppData\Local\LIOScript\shortcuts\DÃ©connexion.lnk" "%USERPROFILE%\Desktop"
+copy /Y /V "%USERPROFILE%\AppData\Local\LIOScript\shortcuts\D‚connexion.lnk" "%USERPROFILE%\Desktop"
 copy /Y /V "%USERPROFILE%\AppData\Local\LIOScript\shortcuts\Eteindre.lnk" "%USERPROFILE%\Desktop"
 
 cscript loginmsg.vbs "Avertissement"

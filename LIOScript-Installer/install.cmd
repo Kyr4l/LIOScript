@@ -1,7 +1,7 @@
 @echo off
 
 echo -----------------------------------------------------------------------------------------------
-echo Ce programme installera des scripts pour cr‚er une sessions invit‚ sur ce compte utilisateur
+echo Ce programme installera des scripts pour cr‚er une sessions Invit‚ sur ce compte utilisateur
 echo Fermez la fenˆtre pour annuler"
 echo -----------------------------------------------------------------------------------------------
 pause
