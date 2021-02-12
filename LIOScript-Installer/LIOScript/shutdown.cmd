@@ -1,5 +1,8 @@
 @echo off
 
+echo Extinction de l'ordinateur
+shutdown /s /t 1
+
 echo Purge de la session
 del /S /Q "%USERPROFILE%\Desktop\*"
 del /S /Q "%USERPROFILE%\Pictures\*"
