@@ -13,10 +13,6 @@ del /S /Q "%USERPROFILE%\Favorites\*"
 del /S /Q "%USERPROFILE%\Videos\*"
 del /S /Q "%USERPROFILE%\Links\*"
 del /S /Q "%USERPROFILE%\Searches\*"
-del /S /Q "%USERPROFILE%\.*"
-
-echo Purge du cache DNS
-ipconfig /flushdns
 
 echo Extinction de l'ordinateur
 shutdown /s /f /t 1
