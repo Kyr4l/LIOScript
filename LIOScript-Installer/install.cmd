@@ -20,6 +20,7 @@ copy /Y /V "LIOScript\shortcuts\open-session.lnk" "%USERPROFILE%\AppData\Roaming
 echo Copie des raccourcis du bureau
 copy /Y /V "LIOScript\shortcuts\D‚connexion.lnk" "%USERPROFILE%\Desktop"
 copy /Y /V "LIOScript\shortcuts\Eteindre.lnk" "%USERPROFILE%\Desktop"
+copy /Y /V "LIOScript\shortcuts\Chrome.lnk" "%USERPROFILE%\Desktop"
 
 echo Termin‚
 pause

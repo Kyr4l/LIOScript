@@ -18,6 +18,7 @@ del /F /Q "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\S
 echo Suppression des raccourcis (%USERPROFILE%\AppData\Local\LIOScript)
 del /F /Q "%USERPROFILE%\Desktop\D‚connexion.lnk"
 del /F /Q "%USERPROFILE%\Desktop\Eteindre.lnk"
+del /F /Q "%USERPROFILE%LIOScript\shortcuts\Chrome.lnk"
 
 echo Termin‚
 pause
