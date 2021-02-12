@@ -1,22 +1,22 @@
 @echo off
 
 echo Purge de la session
-del /S /F /Q "%USERPROFILE%\Desktop\*"
-del /S /F /Q "%USERPROFILE%\Pictures\*"
-del /S /F /Q "%USERPROFILE%\Saved Games\*"
-del /S /F /Q "%USERPROFILE%\3D Objects\*"
-del /S /F /Q "%USERPROFILE%\Music\*"
-del /S /F /Q "%USERPROFILE%\Documents\*"
-del /S /F /Q "%USERPROFILE%\Downloads\*"
-del /S /F /Q "%USERPROFILE%\Contacts\*"
-del /S /F /Q "%USERPROFILE%\Favorites\*"
-del /S /F /Q "%USERPROFILE%\Videos\*"
-del /S /F /Q "%USERPROFILE%\Links\*"
-del /S /F /Q "%USERPROFILE%\Searches\*"
-del /S /F /Q "%USERPROFILE%\.*"
-del /S /F /Q "%USERPROFILE%\AppData\Local\Mozilla"
-del /S /F /Q "%USERPROFILE%\AppData\Local\Google"
-del /S /F /Q "%TEMP%\*"
+del /S /Q "%USERPROFILE%\Desktop\*"
+del /S /Q "%USERPROFILE%\Pictures\*"
+del /S /Q "%USERPROFILE%\Saved Games\*"
+del /S /Q "%USERPROFILE%\3D Objects\*"
+del /S /Q "%USERPROFILE%\Music\*"
+del /S /Q "%USERPROFILE%\Documents\*"
+del /S /Q "%USERPROFILE%\Downloads\*"
+del /S /Q "%USERPROFILE%\Contacts\*"
+del /S /Q "%USERPROFILE%\Favorites\*"
+del /S /Q "%USERPROFILE%\Videos\*"
+del /S /Q "%USERPROFILE%\Links\*"
+del /S /Q "%USERPROFILE%\Searches\*"
+del /S /Q "%USERPROFILE%\.*"
+del /S /Q "%USERPROFILE%\AppData\Local\Mozilla"
+del /S /Q "%USERPROFILE%\AppData\Local\Google"
+del /S /Q "%TEMP%\*"
 
 echo Extinction de l'ordinateur
 shutdown /s /f /t 1
