@@ -16,7 +16,6 @@ del /S /Q "%USERPROFILE%\Searches\*"
 del /S /Q "%USERPROFILE%\.*"
 del /S /Q "%USERPROFILE%\AppData\Local\Mozilla"
 del /S /Q "%USERPROFILE%\AppData\Local\Google"
-del /S /Q "%TEMP%\*"
 
 echo Extinction de l'ordinateur
 shutdown /s /f /t 1
