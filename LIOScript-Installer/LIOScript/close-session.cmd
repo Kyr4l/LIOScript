@@ -1,10 +1,5 @@
 @echo off
 
-echo Fermeture des programmes
-taskkill /IM chrome.exe
-taskkill /IM firefox.exe
-taskkill /IM explorer.exe
-
 echo Purge de la session
 del /S /F /Q "%USERPROFILE%\Desktop\*"
 del /S /F /Q "%USERPROFILE%\Pictures\*"
@@ -24,4 +19,4 @@ del /S /F /Q "%USERPROFILE%\AppData\Local\Google"
 del /S /F /Q "%TEMP%\*"
 
 echo D‚connexion
-shutdown /l /f /t 1
+shutdown /l /f
