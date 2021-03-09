@@ -1,1 +1,1 @@
-Pensez à modifier le script dans \LIOscript\open-session.cmd
+Penser à modifier le script dans LIOScript-Installer\LIOscript\open-session.cmd, ainsi que close-session.cmd et shutdown.cmd
